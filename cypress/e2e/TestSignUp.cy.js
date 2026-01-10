@@ -3,7 +3,7 @@ import SignUp from "../../PageClass/Signup";
 describe('Validate User is Register', () => {
 
     beforeEach(() => {
-        cy.visit('https://www.demoblaze.com/');
+        cy.visit('/');
     });
 
     it('Verify User is able to signup', () => {
